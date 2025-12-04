@@ -1,9 +1,9 @@
 
 #### Usage Instructions
 1. Create a file named .env and add your xAI api key. Format should be "XAI_API_KEY=your-api-key"
-1. Export your chats from WhatsApp and add them to a directory named 'raw_chats'.
-2. In your terminal, enter into the context-extraction directory and run `python main.py`
-3. The final extracted context will the available in the 'out' directory
+2. Export your chats from WhatsApp and add them to a directory named 'raw_chats'.
+3. In your terminal, enter into the context-extraction directory and run `python main.py`
+4. The final extracted context will the available in the 'out' directory
 
 #### Scripts
 clean_raw_chats.py takes your raw WhatsApp text files and returns formated json. The script removes WhatsApp system logs, emojies, sensitive information, links, and short messages like 'ok'.
