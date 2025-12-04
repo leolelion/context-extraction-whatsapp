@@ -1,2 +1,6 @@
 .env
 __pycache__
+logs
+out
+past_extraction
+raw_chats
